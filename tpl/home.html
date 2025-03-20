@@ -1,0 +1,58 @@
+<div id="content">
+    <section id="home" class="container mt-5">
+        <div class="text-center">
+            <h1>Welcome to TechGadgets</h1>
+            <p>Your go-to source for the latest tech gadget reviews.</p>
+        </div>
+        <div class="row mt-4">
+            <!-- Gadget 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="gadget1.jpg" class="card-img-top" alt="Gadget 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Tfue Finalmouse</h5>
+                        <p class="card-text">The lightest, fastest, most responsive wireless gaming mouse in the world. Period.</p>
+                        <button class="btn btn-primary review-btn" data-gadget="tfue-finalmouse">View Reviews</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gadget 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="gadget2.jpg" class="card-img-top" alt="Gadget 2">
+                    <div class="card-body">
+                        <h5 class="card-title">AOC Monitor Gaming Q27G2E/BK 27”</h5>
+                        <p class="card-text">A generally solid gaming monitor, the AOC Gaming CQ27G2S/BK provides some great image quality.</p>
+                        <button class="btn btn-primary review-btn" data-gadget="aoc-monitor">View Reviews</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gadget 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="gadget3.jpg" class="card-img-top" alt="Gadget 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Firefly V2 - RGB Mouse Pad</h5>
+                        <p class="card-text">An ultra-thin mouse pad featuring RGB lighting effects and a micro-textured surface.</p>
+                        <button class="btn btn-primary review-btn" data-gadget="razer-firefly">View Reviews</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Review Section (Initially Hidden) -->
+        <div id="reviews-section" class="mt-5" style="display: none;">
+            <h2 id="review-title"></h2>
+            <ul id="review-list" class="list-group"></ul>
+            
+            <!-- Review Form -->
+            <div class="mt-3">
+                <h4>Write a Review:</h4>
+                <textarea id="review-input" class="form-control" rows="3" placeholder="Write your review here..."></textarea>
+                <button class="btn btn-success mt-2" id="submit-review">Submit Review</button>
+            </div>
+        </div>
+    </section>
+</div>
