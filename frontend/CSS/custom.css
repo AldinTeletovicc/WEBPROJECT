@@ -1,0 +1,327 @@
+/* login DIO*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.card {
+    transition: 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Change background color for all pages */
+body {
+    background-color: #121212; /* Dark futuristic background */
+    color: white; /* Light text for readability */
+}
+
+/* Optional: Style for containers and cards */
+.container, .card {
+    background: rgba(255, 255, 255, 0.05); /* Slight transparency for a sleek look */
+    border-radius: 10px;
+    padding: 20px;
+    color:rgb(0, 0, 0);
+}
+
+/* Optional: Make links stand out */
+a {
+    color: #00c6ff; /* Neon blue links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0072ff; /* Slightly different neon effect on hover */
+}
+
+/* Section Styling */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* headings */
+h2, h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #222;
+}
+/* about dio */
+/* team section gdje smo mi*/
+.team-section {
+    background-color: #ffffff;
+    padding-top: 30px;
+}
+
+.team-member {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.team-member h4 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: #007bff;
+}
+
+.team-member p {
+    color: #555;
+}
+
+/* Why Choose Us Section unutar about dijela */
+.why-choose-us {
+    background: #f1f1f1;
+    padding-top: 40px;
+}
+
+.feature-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feature-box h4 {
+    font-size: 18px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.about-section {
+    background: #ffffff;
+    padding-top: 40px;
+}
+
+.about-image {
+    margin-top: 20px;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Mission Section u aboutu */
+.mission-section {
+    background: #f8f9fa;
+    padding-top: 40px;
+}
+
+/* contact DIO */
+.contact-section {
+    background: #2d3033;
+    color: white;
+    padding: 40px 0;
+}
+
+.contact-section a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .team-member img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .container {
+        padding: 30px 15px;
+    }
+}
+
+.contact-map .map-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* review DIO */
+
+#review-form-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.rating {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.star {
+    color: gray;
+    transition: 0.3s;
+}
+
+.star:hover, .star.selected {
+    color: gold;
+}
+
+.card {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.star {
+    font-size: 24px;
+    cursor: pointer;
+    color: gray;
+}
+.star.selected {
+    color: gold;
+}
+.category-container {
+    margin-bottom: 10px;
+    text-align: left;
+}
+.category-label {
+    font-weight: bold;
+}
+
+/*login DIO*/
+body {
+    background-color: #f8f9fa;
+}
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.181);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/*registracija DIO*/
+body {
+    background-color: #f8f9fa; 
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.text-center a {
+    color: #7b00ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
+
+/* dodao za about us*/
+.team-member {
+    transition: 0.3s;
+}
+.team-member:hover {
+    transform: scale(1.05);
+}
+
+/*login hover*/
+.form-container {
+    transition: 0.3s;
+}
+.form-container:hover {
+    transform: scale(1.05);
+}
+
+/* fina pozadina na sve stranice */
+body {
+    background: linear-gradient(135deg, #1e1e2f, #2a2a3b);
+    color: rgb(0, 0, 0); 
+}
+
+/* da istaknem kucista teksta drugom bojom */
+.container, .card {
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.btn-primary {
+    background: #033b78;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background: #0056b3; 
+    transform: scale(1.05);
+}
+
+/*about us mijenjam boju*/
+.row {
+
+    color:black;
+}
+/*contact dio isto boja slova*/
+.col-md-6 {
+    color:white
+}
+
+.review-title {
+    color:white;
+}
