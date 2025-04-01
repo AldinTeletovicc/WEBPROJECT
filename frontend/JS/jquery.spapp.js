@@ -17,7 +17,7 @@
 
         defaultView  : $("main#spapp > section:last-child").attr("id"),
 
-        templateDir  : './tpl/',
+        templateDir  : '/frontend/views/',
 
         pageNotFound : false
 
