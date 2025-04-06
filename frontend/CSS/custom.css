@@ -16,29 +16,20 @@ body {
 
 /* Change background color for all pages */
 body {
-    background-color: #121212; /* Dark futuristic background */
-    color: white; /* Light text for readability */
+    background-color: #121212; 
+    color: white; 
 }
 
-/* Optional: Style for containers and cards */
 .container, .card {
-    background: rgba(255, 255, 255, 0.05); /* Slight transparency for a sleek look */
+    background: rgba(255, 255, 255, 0.05); 
     border-radius: 10px;
     padding: 20px;
     color:rgb(0, 0, 0);
 }
 
-/* Optional: Make links stand out */
-a {
-    color: #00c6ff; /* Neon blue links */
-    text-decoration: none;
-}
-
 a:hover {
-    color: #0072ff; /* Slightly different neon effect on hover */
+    color: #0072ff; 
 }
-
-/* Section Styling */
 section {
     padding: 50px 0;
     text-align: center;
