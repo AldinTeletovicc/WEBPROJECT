@@ -3,4 +3,4 @@ So for this first milestone I've created a well built foundation. My plan is to 
 
 I've noticed a slight problem while entering register from login which i will be needing to fix but the register to login works normally. (already got an account? Login / dont have an account? Register)
 
-previse button-a pa cu moram zasebno za svaki napraviti css da se ne mijesaju.
+previse button-a pa cu morat zasebno za svaki napraviti css da se ne mijesaju.

@@ -14,7 +14,6 @@ body {
     transform: scale(1.05);
 }
 
-/* Change background color for all pages */
 body {
     background-color: #121212; 
     color: white; 
@@ -27,15 +26,10 @@ body {
     color:rgb(0, 0, 0);
 }
 
-a:hover {
-    color: #0072ff; 
-}
 section {
     padding: 50px 0;
     text-align: center;
 }
-
-/* headings */
 h2, h3 {
     font-weight: 700;
     margin-bottom: 20px;
