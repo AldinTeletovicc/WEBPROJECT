@@ -51,6 +51,11 @@
       // End Swagger UI call region
       window.ui = ui
     }
+    // Change paths
+require __DIR__ . '/../routes/products.php';
   </script>
+  Flight::route('/', function() {
+    echo 'API is running! Try /products';
+});
   </body>
 </html>

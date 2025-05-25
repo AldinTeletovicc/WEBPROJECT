@@ -36,5 +36,11 @@ class UserDao extends BaseDao {
         $stmt->execute();
         return $stmt->rowCount();
     }
+    public function getByEmail($email) {
+    $stmt = $this->connection->prepare("SELECT * FROM users WHERE email = :email");
+    $stmt->bindParam(':email', $email);
+    $stmt->execute();
+    return $stmt->fetch(PDO::FETCH_ASSOC);
+}
 }
 ?>
