@@ -10,3 +10,12 @@ class UserService {
         return password_hash($password, PASSWORD_BCRYPT);
     }
 }
+
+$passwordHash = password_hash($userData['password'], PASSWORD_DEFAULT);
+// Save $passwordHash instead of plain password to the database
+
+if (password_verify($inputPassword, $userFromDb['password'])) {
+    // Set session or JWT token
+} else {
+    // Return login error
+}

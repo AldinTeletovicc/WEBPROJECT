@@ -77,5 +77,13 @@ $(document).ready(function () {
               `);
           });
       }
+            fetch('/api/user')
+  .then(res => res.json())
+  .then(user => {
+    if (user.role === 'admin') {
+      document.getElementById('adminPanel').style.display = 'block';
+    }
+  });
+
   }
 });
