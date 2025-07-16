@@ -1,0 +1,85 @@
+<div class="container mt-3">
+  <div>
+    <table class="table table-striped" id="employee-performance">
+      <thead>
+        <tr>
+          <th>Action</th>
+          <th>Employee full name</th>
+          <th>Employee email</th>
+          <th>Total payments (BAM)</th>
+        </tr>
+      </thead>
+      <tbody>
+      
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="edit-employee-modal"
+  tabindex="-1"
+  aria-labelledby="edit-employee-label"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form action="#">
+        <div class="modal-header">
+          <h5 class="modal-title" id="add-employee-label">Edit employee</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <input type="hidden" id="customer_id" name="customer_id" />
+          <div class="mb-3 mt-3">
+            <label for="first_name">First name:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="first_name"
+              placeholder="Enter first name"
+              name="first_name"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="pwd">Last name:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="last_name"
+              placeholder="Enter last name"
+              name="last_name"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="birth_date">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter email"
+              name="email"
+            />
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-dismiss="modal"
+          >
+            Close
+          </button>
+          <button type="submit" class="btn btn-primary">Save changes</button>
+        </div>
+      </form>
+    </div>
+  </div>
+<script src="services/employees.js"></script>
